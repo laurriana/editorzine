@@ -2,7 +2,6 @@ package editorzine.server.service;
 
 import editorzine.server.dto.EditorDTO;
 import editorzine.server.model.Editor;
-import editorzine.server.model.User;
 import editorzine.server.repository.EditorRepository;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
