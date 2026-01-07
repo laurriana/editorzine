@@ -26,4 +26,9 @@ public class EditorController {
     public EditorDTO updateEditor(@PathVariable int id, @RequestBody EditorDTO editorDTO) {
         return editorService.modifyEditor(id, editorDTO);
     }
+
+    @GetMapping("/demo")
+    public String demo() {
+        return "editor controller is working!";
+    }
 }
