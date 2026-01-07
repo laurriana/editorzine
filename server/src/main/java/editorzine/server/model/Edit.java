@@ -26,6 +26,9 @@ public class Edit {
     @ManyToOne
     private Editor editor;
 
+    @ManyToOne
+    private Style style;
+
     private List<URL> urls = new ArrayList<>();
 
     private int loops;
